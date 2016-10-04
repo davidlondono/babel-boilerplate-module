@@ -24,15 +24,8 @@
   "dependencies": {
     "babel-cli": "6.14.0",
     "babel-core": "6.8.0",
-    "babel-plugin-transform-async-to-generator": "6.8.0",
     "babel-preset-es2015-node5": "1.2.0",
     "babel-preset-stage-3": "6.5.0",
-    "basic-auth": "1.0.4",
-    "bcrypt": "0.8.7",
-    "koa-jwt": "1.2.0",
-    "mongoose": "4.6.0",
-    "rabbot": "1.0.6",
-    "rabbus": "0.8.1",
     "rimraf": "2.5.4"
   },
   "devDependencies": {
@@ -47,7 +40,9 @@
     "eslint-config-airbnb-base": "3.0.1",
     "eslint-plugin-import": "1.8.0",
     "eslint-plugin-mocha": "4.5.1",
-    "mocha": "3.0.2"
+    "mocha": "3.0.2",
+    "sinon": "1.17.5",
+    "sinon-as-promised": "4.0.2"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
