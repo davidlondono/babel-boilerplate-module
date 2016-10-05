@@ -12,7 +12,7 @@
     "test": "NODE_ENV=test mocha -u bdd -R spec --require babel-core/register",
     "clean": "rimraf lib && mkdir lib",
     "lint": "eslint src test",
-    "lint:fix": "eslint src --fix",
+    "lint:fix": "eslint src test --fix",
     "build": "npm run clean && npm run build:module",
     "build:module": "babel -d ./lib ./src -s",
     "postinstall": "npm run build",
