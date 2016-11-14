@@ -1,7 +1,7 @@
 {
   "ignore": ["/node_modules(?![/]arrow-mocha)/"],
   "presets": [
-    "es2015-node5",
+    "node6",
     "stage-3"
   ]
 }
