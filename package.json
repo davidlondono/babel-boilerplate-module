@@ -22,10 +22,11 @@
   "author": "David Alejandro Londoño",
   "license": "MIT",
   "dependencies": {
-    "babel-core": "6.17.0",
-    "babel-preset-es2015-node5": "1.2.0",
+    "babel-cli": "6.18.0",
+    "babel-preset-node6": "11.0.0",
     "babel-preset-stage-3": "6.17.0",
-    "rimraf": "2.5.4"
+    "debug": "2.2.0",
+    "rimraf": "2.5.4",
   },
   "devDependencies": {
     "arrow-mocha": "^1.0.1",
